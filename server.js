@@ -1,10 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
 const PORT = 3000;
 
-const clientID = 'YOUR_CLIENT_ID';
-const clientSecret = 'YOUR_CLIENT_SECRET';
+const clientID = 'Ov23li11Kv04iGIGHiK5';
+const clientSecret = '98b70100ab8ac44289acf594b806f940cebc9583';
 let accessToken = '';
 
 let students = []; // In-memory store for added students

@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+
 
 function SearchBar({ onSearch, onAddStudent }) {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState([]);
 
     const handleSearch = async () => {
-        const items = await onSearch(query);
-        setResults(items);
+        try {
+            const items = await onSearch(query);
+            setResults(items);
+        } catch (error) {
+            console.error('Error searching for users:', error);
+            // Optionally, you could set some error state here to show a message to the user.
+        }
     };
-
+    
     return (
         <div>
             <input
@@ -29,5 +36,8 @@ function SearchBar({ onSearch, onAddStudent }) {
         </div>
     );
 }
-
+SearchBar.propTypes = {
+    onSearch: PropTypes.func.isRequired,
+    onAddStudent: PropTypes.func.isRequired,
+};
 export default SearchBar;
