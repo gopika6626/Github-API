@@ -18,9 +18,12 @@ The search results are displayed in a list, showing basic repositories stored in
 We can separately select the repositories and track it.
 
 ### Team Members
-* Gopika R
-* Adithya Ramesh
+* [Gopika R](https://github.com/gopika6626)
+* [Adithya Ramesh](https://github.com/Adithya6ramesh)
 
 ### Images
-
-<Tracker="![Github API](https://github.com/user-attachments/assets/7dd95928-dcef-4193-8183-1b3cc8ac1d48)"
+#### Interface 
+"![Screenshot 2024-08-06 231208](https://github.com/user-attachments/assets/da43d83d-8b56-4d5c-84e5-8df2f768b67b)
+"
+#### Tracker
+"![Github API](https://github.com/user-attachments/assets/7dd95928-dcef-4193-8183-1b3cc8ac1d48)"
