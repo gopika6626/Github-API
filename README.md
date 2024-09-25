@@ -20,6 +20,7 @@ We can separately select the repositories and track it.
 ### Team Members
 * [Gopika R](https://github.com/gopika6626)
 * [Adithya Ramesh](https://github.com/Adithya6ramesh)
+* [Gopika M Sharma](https://github.com/gopikasharma)
 
 ### Images
 #### Interface 
